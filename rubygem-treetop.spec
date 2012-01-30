@@ -2,7 +2,7 @@
 Summary:	A Ruby-based text parsing and interpretation DSL
 Name:		rubygem-%{gemname}
 Version:	1.4.10
-Release:	%mkrel 1
+Release:	%mkrel 2
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
@@ -10,6 +10,7 @@ Url:		http://www.rubyonrails.org/
 BuildRoot:	%{_tmppath}/%{gemname}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-RubyGems
+Provides:       rubygem(%{gemname}) = %{version}
 
 %description
 A Ruby-based text parsing and interpretation DSL.
