@@ -2,7 +2,7 @@
 Summary:	A Ruby-based text parsing and interpretation DSL
 Name:		rubygem-%{gemname}
 Version:	1.4.10
-Release:	%mkrel 2
+Release:	%mkrel 3
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
@@ -32,7 +32,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%{bindir}/tt
+%{_bindir}/tt
 %{ruby_gemdir}/gems/%{gemname}-%{version}
 %{ruby_gemdir}/specifications/%{gemname}-%{version}.gemspec
 %doc %{ruby_gemdir}/doc/%{gemname}-%{version}
