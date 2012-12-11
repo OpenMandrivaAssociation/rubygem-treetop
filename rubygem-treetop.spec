@@ -36,3 +36,23 @@ rm -rf $RPM_BUILD_ROOT
 %{ruby_gemdir}/gems/%{gemname}-%{version}
 %{ruby_gemdir}/specifications/%{gemname}-%{version}.gemspec
 %doc %{ruby_gemdir}/doc/%{gemname}-%{version}
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.4.10-4
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 1.4.10-3
++ Revision: 769824
+- Fix file list
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 1.4.10-2
++ Revision: 769774
+- Manual provides
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 1.4.10-1
++ Revision: 769769
+- First mdv package
+- Created package structure for 'rubygem-treetop'.
+
