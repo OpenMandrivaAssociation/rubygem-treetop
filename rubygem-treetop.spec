@@ -2,7 +2,7 @@
 Summary:	A Ruby-based text parsing and interpretation DSL
 Name:		rubygem-%{gemname}
 Version:	1.4.10
-Release:	4
+Release:	5
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
